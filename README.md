@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview  
 This project demonstrates how to design and analyze an **Online Orders database** using **MySQL Workbench**.  
-It covers database creation, table design, and advanced SQL queries including **aggregations, GROUP BY, HAVING, subqueries, CTEs, and window functions**.  
+It covers database creation, table design, and advanced SQL queries including **Aggregations, GROUP BY, HAVING, Subqueries, CTEs, and Window functions**.  
 
 The analysis generates insights such as:  
 - Total Orders and Revenue  
@@ -57,6 +57,7 @@ CREATE TABLE Orders_Details (
   Payment_Method VARCHAR(50),
   Review_Rating INT
 );
+![Image 1](images/Image1.jpeg)
 ### 2. Preview Data
 SELECT * FROM Orders_Details;
 
